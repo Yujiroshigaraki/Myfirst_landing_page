@@ -1,0 +1,311 @@
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    position: relative;
+    left: 70px;
+    padding: 5px;
+}
+.conteneurhead1{
+    display: inline-block;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+    text-align: center;
+    position: relative;
+    bottom: 20px;
+}
+.conteneurhead2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.one{
+    text-decoration: underline;
+    color: rgb(73, 73, 255);
+}
+.six{
+    position: relative;
+    top: 20px;
+}
+.conteneurhead3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.eight{
+    display: inline-block;
+    width: 170px;
+    height: 50px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+}
+.nine{
+    display: inline-block;
+    width: 170px;
+    height: 50px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+}
+.conteneurhead{
+    background-color: rgb(150, 178, 255);
+    display: block;
+    width: 1300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.headcenter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.center{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    top: 10px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 325px 325px;
+    grid-template-rows: 100px 100px;
+    gap: 10px;
+}
+.center1{
+    display: flex;
+    flex-direction: column;
+}
+.boxx{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    h1{
+        position: relative;
+        top: 10px;
+    }
+}
+.six{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+span{
+    font-weight: 900;
+    font-size: 30px;
+}
+.sept{
+    display: flex;
+    flex-direction: column;
+}
+.center3{
+    display: block;
+    width: 1300px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    background-color: rgb(143, 143, 255);
+    position: relative;
+    top: 10px;
+    .sept{
+        text-align: center;
+    }
+    img{
+        width: 800px;
+        height: 400px;
+    }
+    .huit{
+        display: block;
+        background-color: white;
+        border-radius: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 60px;
+        .email{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        img{
+            width: 40px;
+            height: auto;
+        }
+    }
+}
+.bouton{
+    background-color: rgb(117, 117, 255);
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    color: white;
+}
+.neuf{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.logos{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: rgb(211, 211, 211);
+}
+.photos{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.dix{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    h1{
+        font-size: 30px;
+    }
+}
+.onze{
+    display: block;
+    width: 300px;
+    height: 40px;
+    border: 2px solid rgb(194, 194, 194);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+.douze{
+    display: block;
+    width: 300px;
+    height: 40px;
+    border: 2px solid rgb(194, 194, 194);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+.treize , .quatorze{
+    display: block;
+    width: 300px;
+    height: 40px;
+    border: 2px solid rgb(194, 194, 194);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+.quinze{
+    display: block;
+    width: 625px;
+    height: 200px;
+    border: 2px solid rgb(194, 194, 194);
+    border-radius: 5px;
+}
+.conteneurindentify{
+    display: grid;
+    grid-template-rows: 40px 40px;
+    grid-template-columns: 300px 300px;
+    gap: 20px;
+}
+.inddentify{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.seize{
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    background-color: royalblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 25px;
+}
+.foot{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin: 10px;
+}
+.final{
+    display: grid;
+    grid-template-columns: 300px 300px 300px 400px;
+    h1{
+        font-size: 20px;
+    }
+}
+.vingt-un{
+    background-color: rgb(207, 207, 207);
+    border-radius: 20px;
+    display: inline-block;
+    width: 300px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    p{
+        opacity: 0.5;
+        margin: 10px;
+    }
+}
+.footer1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    background-color: rgb(190, 182, 255);
+}
+.point{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
